@@ -7,6 +7,8 @@ const FormRoute = require("./Routes/FormRoute");
 const PORT = 4500;
 const app = express();
 require('./Models/BD');
+
+//link to front
 const corsOptions={
     origin: 'http://localhost:3005',
     credentials:true,
